@@ -191,3 +191,14 @@ hr.new1 {
 .footer-content2 li:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 730px) {
+  .footer-content2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer-content {
+    display: none;
+  }
+}
